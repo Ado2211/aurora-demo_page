@@ -38,16 +38,19 @@ a {
 .siteHeader {
     background-color: #fff;
     padding: 15px 45px;
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
     align-items: center;
-
     top: 0;
     left: 0;
     width: 100%;
     z-index: 222;
     box-shadow: 0 4px 4px rgba(0, 0, 0, .07);
+    margin-right: 16px;
+    background-color: #fff;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    transition: top 0.3s; 
 }
 
 
@@ -84,20 +87,11 @@ a {
 
 .siteHeader__Button {
     margin-left: auto;
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
     align-items: center;
-
-}
-
-.navbar {
-    margin-right: 16px
 }
 
 .nav-menu {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
     list-style: none;
     margin: 0;
@@ -166,7 +160,7 @@ a {
 }
 
 .top-lady {
-    width: 50%;
+    width: 55%;
     height: auto;
     background-image: url(./assets/top-ladyBG.png);
     background-repeat: no-repeat;
@@ -189,7 +183,7 @@ a {
     align-items: flex-start;
     width: 50%;
     height: auto;
-    margin-top: 140px;
+    margin-top: 40px;
 }
 
 .intro__Left .intro__zenLady {
@@ -205,7 +199,7 @@ a {
     z-index: 1;
     font-style: normal;
     font-weight: 800;
-    font-size: 96px;
+    font-size: 86px;
     line-height: 100%;
     margin-bottom: 0px;
 }
@@ -251,8 +245,8 @@ a {
     align-items: center;
 }
 
-.upisi-se img{
-padding-left: 10px;
+.upisi-se img {
+    padding-left: 10px;
 }
 
 .upisi-se:hover {
@@ -313,16 +307,16 @@ padding-left: 10px;
 
 .cta {
     margin-top: 60px;
-    padding: 40px 120px;
+    padding: 40px 160px;
     background-color: #502772;
 }
 
 .cta__Left img {
-    width: 100%;
+    width: 70%;
     max-width: 610px;
     vertical-align: middle;
     align-self: center;
-    margin-right: 300px;
+    margin-right: 500px;
 }
 
 .cta__Right h3 {
@@ -341,7 +335,7 @@ padding-left: 10px;
     z-index: 1;
     font-style: normal;
     font-weight: 800;
-    font-size: 96px;
+    font-size: 86px;
     line-height: 60px;
     letter-spacing: 3px;
 }
@@ -366,7 +360,7 @@ padding-left: 10px;
     }
 
     .cta__Right {
-        padding: 30px 40px; 
+        padding: 30px 40px;
     }
 
     .cta__Right h2 {
@@ -385,7 +379,7 @@ padding-left: 10px;
     .cta__Right h3 {
         padding-left: 30px;
         padding-right: 30px;
-   
+
     }
 
     .cta__Right p {
@@ -397,14 +391,16 @@ padding-left: 10px;
 
     .cta__Left img {
         width: 60%;
-        margin-left: 60px;
+        margin-left: 80px;
     }
 }
 
 .d-row {
     display: flex;
     flex-direction: row;
-    align-items: stretch
+    margin-right: 170px;
+    justify-content: space-around;
+    margin-bottom: 100px;
 }
 
 .s-twoBoxes .c-row__column__box {
@@ -443,18 +439,13 @@ padding-left: 10px;
 }
 
 .d-row__column {
-    width: 50%;
-    margin-right: 150px;
-}
-
-.d-row {
-    margin-bottom: 100px;
+    width: 40%;
 }
 
 .c-row__column__box h3 {
     font-style: normal;
     font-weight: 700;
-    font-size: 36px;
+    font-size: 30px;
     line-height: 100%;
     color: #fff;
     color: #502772;
@@ -465,15 +456,16 @@ padding-left: 10px;
 .c-row__column__box p {
     color: #333333;
     text-align: left;
-    font-size: 22px;
+    font-size: 20px;
     padding: 0 40px;
 }
 
 @media(max-width:730px) {
     .d-row {
         flex-direction: column;
-
-        padding: 50px 10px;
+        margin-left: 10px;
+        margin-right: 10px;
+        margin-bottom: 100px;
     }
 
     .left-padding {
