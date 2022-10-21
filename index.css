@@ -175,6 +175,14 @@ a {
     display: flex;
 }
 
+.line {
+    height: 22px;
+    width: 295px;
+    margin-left: -10px;
+    margin-top: -23px;
+   
+}
+
 .intro__Left__text {
     position: relative;
     z-index: 1;
@@ -202,6 +210,7 @@ a {
     font-size: 86px;
     line-height: 100%;
     margin-bottom: 0px;
+    
 }
 
 .intro__Left h3 {
@@ -298,6 +307,12 @@ a {
     .left-padding {
         padding-left: 30px;
     }
+
+    .line {
+        margin-left: 30px;
+        height: 22px;
+        width: 325px;
+    }
 }
 
 .c-row {
@@ -338,6 +353,7 @@ a {
     font-size: 86px;
     line-height: 60px;
     letter-spacing: 3px;
+    z-index: 2;
 }
 
 .cta__Right p {
@@ -353,6 +369,15 @@ a {
     color: #01e1bf;
 }
 
+.lineTwo { 
+margin-bottom: -167px;
+}
+
+.x {
+    margin-left:-5px;
+    margin-right:-3px;
+    margin-bottom: -5px;
+}
 @media(max-width:730px) {
     .c-row {
         flex-direction: column-reverse;
@@ -392,6 +417,12 @@ a {
     .cta__Left img {
         width: 60%;
         margin-left: 80px;
+    }
+
+    .lineTwo{
+        margin-bottom: -90px;
+        margin-left: 10px;
+        width:340px;
     }
 }
 
